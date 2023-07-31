@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fauna+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="navigation-container">
+      <nav class="navbar">
+        <h1>Lyn</h1>
+        <!-- <ul class="nav-list">
+          <li><a href="#" class="nav-link">About</a></li>
+          <li><a href="#" class="nav-link">Portforlio</a></li>
+          <li><a href="#" class="nav-link">Service</a></li>
+        </ul>
+        <a href="#" class="cta">Contact</a> -->
+        <div class="burger-button">
+          <div class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+      <div class="collapse" id="navbarToggle">
+        <div class="nav-list">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#service" class="nav-link">Service</a>
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+          <a href="#testimonial" class="nav-link">Testimonial</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <header class="hero">
+        <div class="col-wrapper">
+          <div class="shape-container">
+            <div class="hero-image"></div>
+          </div>
+        </div>
+        <div class="col-wrapper">
+          <p class="text-greet">Hello, My name is</p>
+          <h1 class="text-name">LYNETTE PASTORFIDE</h1>
+          <p class="text-intro">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            ratione aspernatur molestiae delectus repellat ab ipsa ut corrupti,
+            maiores suscipit rem minima voluptate voluptas in omnis facilis
+            explicabo quasi quae?
+          </p>
+          <button id="download">
+            <i class="fa-solid fa-download"></i>Download Resume
+          </button>
+        </div>
+      </header>
+      <section id="about">
+        <h2 class="text-title">About Me</h2>
+        <p class="text-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+          dignissimos quis ab! Deleniti, dolorum distinctio, soluta sequi nisi
+          ullam libero optio at dolor sint dolore, aspernatur adipisci odio quia
+          fugit.
+        </p>
+        <br />
+        <p class="text-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+          dignissimos quis ab! Deleniti, dolorum distinctio, soluta sequi nisi
+          ullam libero optio at dolor sint dolore, aspernatur adipisci odio quia
+          fugit.
+        </p>
+      </section>
+
+      <section id="service">
+        <h2 class="text-title">Service</h2>
+        <p class="text-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+          dignissimos quis ab! Deleniti, dolorum distinctio, soluta sequi nisi
+          ullam libero optio at dolor sint dolore, aspernatur adipisci odio quia
+          fugit.
+        </p>
+        <br />
+        <p class="text-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+          dignissimos quis ab! Deleniti, dolorum distinctio, soluta sequi nisi
+          ullam libero optio at dolor sint dolore, aspernatur adipisci odio quia
+          fugit.
+        </p>
+      </section>
+
+      <section id="portfolio">
+        <h2 class="text-title">Portfolio</h2>
+        <p class="text-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+          dignissimos quis ab! Deleniti, dolorum distinctio, soluta sequi nisi
+          ullam libero optio at dolor sint dolore, aspernatur adipisci odio quia
+          fugit.
+        </p>
+        <br />
+        <p class="text-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+          dignissimos quis ab! Deleniti, dolorum distinctio, soluta sequi nisi
+          ullam libero optio at dolor sint dolore, aspernatur adipisci odio quia
+          fugit.
+        </p>
+      </section>
+
+      <section id="testimonial">
+        <h2 class="text-title">Testimonial</h2>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="slide-container">
+                <div class="image-container">
+                  <img src="./media/img/me.png" class="customer-image" alt="" />
+                </div>
+                <blockquote class="blockqoute">
+                  <p class="blockqoute-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Magnam, in rem. Neque provident quis a, maxime
+                    exercitationem, itaque et hic obcaecati ex magni magnam
+                    nobis voluptatum sint rem sapiente voluptatem.
+                  </p>
+                  <h3 class="customer-name">Lynette</h3>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-container">
+                <div class="image-container">
+                  <img src="./media/img/me.png" class="customer-image" alt="" />
+                </div>
+                <blockquote class="blockqoute">
+                  <p class="blockqoute-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Magnam, in rem. Neque provident quis a, maxime
+                    exercitationem, itaque et hic obcaecati ex magni magnam
+                    nobis voluptatum sint rem sapiente voluptatem. Magnam, in
+                    rem. Neque provident quis a, maxime exercitationem, itaque
+                    et hic obcaecati ex magni magnam
+                  </p>
+                  <h3 class="customer-name">Lynette</h3>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="text-title">Contact Me</h2>
+        <p class="text-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+          dignissimos quis ab! Deleniti, dolorum distinctio, soluta sequi nisi
+          ullam libero optio at dolor sint dolore, aspernatur adipisci odio quia
+          fugit.
+        </p>
+        <br />
+        <p class="text-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+          dignissimos quis ab! Deleniti, dolorum distinctio, soluta sequi nisi
+          ullam libero optio at dolor sint dolore, aspernatur adipisci odio quia
+          fugit.
+        </p>
+      </section>
+    </main>
+    <footer></footer>
+
+    <!-- JS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
