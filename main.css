@@ -50,7 +50,7 @@ h6 {
   --font-fauna-one: "Fauna One", serif;
   --font-open-sans: "Open Sans", sans-serif;
   --font-gelasio: "Gelasio", serif;
-
+  --font-pacifico: "Pacifico", cursive;
   --primary: #d7beac;
   --secondary: #6a5a4c;
   --dark-900: #1e1814;
@@ -66,6 +66,31 @@ body {
   font-size: 16px;
 }
 
+.logo-container {
+  position: relative;
+  cursor: pointer;
+}
+.logo-container .name {
+  position: relative;
+  font-family: var(--font-pacifico);
+  font-weight: bold;
+  color: var(--dark-900);
+}
+.logo-container .kiss-mark {
+  position: absolute;
+  top: -5px;
+  right: -25px;
+  width: 45px;
+  height: 45px;
+  transition: all 0.2s ease-in-out;
+  z-index: -1;
+}
+
+.logo-container:hover .kiss-mark {
+  transform: scale(1.5) rotate(45deg);
+  z-index: 1;
+}
+
 header.navigation-container {
   max-width: 640px;
   margin-inline: auto;
@@ -73,6 +98,9 @@ header.navigation-container {
   position: sticky;
   top: 0;
   z-index: 10;
+}
+.navbar a {
+  text-decoration: none;
 }
 
 .navbar {
@@ -214,7 +242,7 @@ main {
 
 header.hero {
   background-color: var(--light-300);
-  padding: 20px 16px;
+  padding: 40px 16px;
   display: flex;
   flex-direction: column;
 }
@@ -312,6 +340,25 @@ section:nth-child(even) {
   font-size: 14px;
 }
 
+/* About Me */
+#about .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-block: 20px;
+}
+
+#about .headline {
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--dark-200);
+}
+
+#about .subheadline {
+  font-family: var(--font-fauna-one);
+  font-size: 32px;
+}
+
 /* Testimonial */
 .image-container {
   display: flex;
@@ -365,6 +412,9 @@ section:nth-child(even) {
   font-weight: 800;
   text-align: right;
 }
+
+/*  */
+
 /* Swiper */
 .swiper {
   width: 100%;
