@@ -1,0 +1,19 @@
+{
+  "testimonials": [
+    {
+      "href": "./media/img/me1.jpg",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione aspernatur molestiae delectus repellat ab ipsa ut corrupti, maiores suscipit rem minima voluptate voluptas in omnis facilis explicabo quasi quae?",
+      "credit": "Lynette Pastofide"
+    },
+    {
+      "href": "./media/img/me2.jpg",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ratione aspernatur molestiae delectus repellat ab ipsa ut corrupti, maiores suscipit rem minima voluptate voluptas in omnis facilis explicabo quasi quae?",
+      "credit": "Lynette Olicia"
+    },
+    {
+      "href": "./media/img/me2.jpg",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit, maiores suscipit rem minima voluptate voluptas in omnis facilis explicabo quasi quae?",
+      "credit": "Lynette <3"
+    }
+  ]
+}

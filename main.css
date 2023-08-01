@@ -268,21 +268,24 @@ header.hero {
   margin-bottom: 20px;
   color: var(--dark-900);
 }
-button#download {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 6px;
-  border-style: none;
+
+.cta {
+  display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
   font-weight: 700;
-  background-color: var(--dark-900);
+  text-decoration: none;
   border-radius: 8px;
+  background-color: var(--dark-900);
   color: var(--dark-200);
   transition: all 0.2s ease-in-out;
 }
-button#download:hover {
+
+.cta i {
+  margin-right: 6px;
+}
+
+.cta:hover {
   background-color: var(--dark-200);
   color: var(--dark-900);
 }
