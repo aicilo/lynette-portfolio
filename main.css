@@ -69,6 +69,7 @@ body {
 .logo-container {
   position: relative;
   cursor: pointer;
+  user-select: none;
 }
 .logo-container .name {
   position: relative;
