@@ -76,19 +76,44 @@ body {
   font-weight: bold;
   color: var(--dark-900);
 }
-.logo-container .kiss-mark {
+.logo-container #moon {
   position: absolute;
   top: -5px;
-  right: -25px;
+  right: -45px;
   width: 45px;
   height: 45px;
-  transition: all 0.2s ease-in-out;
+  transform: translateY(100px);
+  transition: all 1s ease-in-out;
   z-index: -1;
 }
 
-.logo-container:hover .kiss-mark {
-  transform: scale(1.5) rotate(45deg);
-  z-index: 1;
+.logo-container:hover #moon {
+  transform: rotate(40deg);
+}
+
+.logo-container #stars {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  animation: starsBlinking 1s infinite;
+}
+.logo-container #stars2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  opacity: 0;
+  animation: starsBlinking 1.8s infinite;
+}
+
+@keyframes starsBlinking {
+  to {
+    opacity: 1;
+  }
 }
 
 header.navigation-container {
@@ -107,6 +132,8 @@ header.navigation-container {
   display: flex;
   justify-content: space-between;
   padding: 16px;
+  position: relative;
+  overflow: hidden;
 }
 .navbar .nav-list {
   display: flex;
@@ -204,6 +231,7 @@ header.navigation-container {
   background-color: var(--light-300);
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   position: absolute;
+
   /* z-index: 10; */
 }
 #navbarToggle.collapse {
